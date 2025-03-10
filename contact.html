@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>ネイルサロン & 小売業者向け大量注文対応</title>
+
+</head>
+<body class="font-sans text-lg">
+<header class="bg-red-500 px-4 py-4">
+
+    <div class="container mx-auto flex flex-col md:flex-row md:justify-between">
+    <div>
+        <p>
+            ネイルサロン & 小売業者向け大量注文対応
+        </p>
+    </div>
+    <div>
+        <nav>
+            <ul class="flex gap-4">
+                <li><a class="underline underline-offset-2" href="./">ホーム</a></li>
+                <li><a class="underline underline-offset-2" href="about.html">会社概要</a></li>
+                <li><a class="underline underline-offset-2" href="contact.html">お問い合わせ</a></li>
+            </ul>
+           
+        </nav>
+    </div>
+</div>
+</header>
+
+<section class="py-20 px-4">
+    <div class="container mx-auto border-2 border-red-500 rounded-lg overflow-hidden bg-white">
+ 
+        <div class="p-8"><h3 class="text-2xl">無料お見積もりはこちら！</h3></div>
+        <div class="p-4 bg-black"><p class="text-white font-normal">下記のフォームからお問い合わせいただき、お客様のビジネスに最適なネイルアート商品をご提案します。</p></div>
+        <div class="p-4">
+         <form action="./success.html" method="POST" data-netlify="true" class="space-y-4">
+             <div>
+                 <label class="block text-gray-700">お名前</label>
+                 <input type="text" name="first_name" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+             </div>
+             <div>
+                 <label class="block text-gray-700">メールアドレス</label>
+                 <input type="email" name="email" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+             </div>
+             <div>
+                 <label class="block text-gray-700">電話番号</label>
+                 <input type="tel" name="phone" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+             </div>
+             <div>
+                 <label class="block text-gray-700">ビジネス種別</label>
+                 <input type="text" name="from_address" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+             </div>
+             <div>
+                 <label class="block text-gray-700">希望注文量</label>
+                 <input type="text" name="to_address" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+             </div>
+             
+             <button type="submit" class="w-full bg-red-500 text-white py-2 rounded hover:bg-blue-600 transition">Get Quote</button>
+         </form>
+        </div>
+ 
+     </div>
+  
+</section>
+
+<footer class="bg-gray-900 py-4 px-4">
+
+    <div class="container mx-auto flex flex-col gap-4">
+        <ul class="flex flex-row gap-4">
+            <li><a href="./" class="text-red-500">ホーム</a></li>
+            <li><a href="./about.html" class="text-red-500">会社概要</a></li>
+            <li><a href="./privacy.html" class="text-red-500">プライバシーポリシ</a></li>
+        </ul>
+        <p class="text-white">
+            © 2025 RS Nail Art Seller. 全著作権所有。
+        </p>
+    </div>
+
+</footer>
+
+
+
+</body>
+</html>
+
